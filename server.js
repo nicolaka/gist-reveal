@@ -54,7 +54,7 @@ var config = cc({
 , GA_TRACKER : process.env.GA_TRACKER
 , REVEAL_WEB_HOST : process.env.REVEAL_WEB_HOST || process.env.OPENSHIFT_APP_DNS || 'localhost:8080'
 , TEMPLATE_LOGO_TEXT : process.env.TEMPLATE_LOGO_TEXT || "Launch on OpenShift"
-, TEMPLATE_LOGO_IMG : process.env.TEMPLATE_LOGO_IMG || "img/launchbutton.svg"
+, TEMPLATE_LOGO_IMG : process.env.TEMPLATE_LOGO_IMG || "img/docker-sideways.png"
 , TEMPLATE_LOGO_URL : process.env.TEMPLATE_LOGO_URL || "https://openshift.redhat.com/app/console/application_types/custom?name=slides&initial_git_url=https%3A%2F%2Fgithub.com/ryanj/gist-reveal.git&cartridges[]=nodejs-0.10"
 });
 var createHash = function(secret) {
